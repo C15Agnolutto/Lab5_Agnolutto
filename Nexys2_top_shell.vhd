@@ -1,6 +1,6 @@
 ----------------------------------------------------------------------------------
 -- Company: USAFA
--- Engineer: Silva
+-- Engineer: Scott Agnolutto
 -- 
 -- Create Date:    12:43:25 07/07/2012 
 -- Module Name:    Nexys2_Lab3top - Behavioral 
@@ -186,7 +186,7 @@ LED <= CLOCKBUS_SIG(26 DOWNTO 19);
 --Instantiate the design you with to implement below and start wiring it up!:
 -----------------------------------------------------------------------------
 	Inst_PRISM: PRISM PORT MAP(
-		Clock => Clockbus_Sig(23),
+		Clock => Clockbus_Sig(18),
 		Reset_L =>  not btn(3),
 		--Control_Bus => ,
 		Input_0 => switch(3 downto 0),
