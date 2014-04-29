@@ -30,6 +30,12 @@ If the value was 0 or greater (which was impossible for this PRISM model) then i
 
 ![JMP] (https://raw.githubusercontent.com/C15Agnolutto/Lab5_Agnolutto/master/jmp.PNG)
 
+I used the state diagram and the control signals by state table below to help me understand whats going on and when each singal was occuring.
+
+![Signals] (https://raw.githubusercontent.com/C15Agnolutto/Lab5_Agnolutto/master/Fetch.PNG)
+
+![Diagram] (https://raw.githubusercontent.com/C15Agnolutto/Lab5_Agnolutto/master/Diagram.PNG)
+
 
 ### Functionality
 
