@@ -3,8 +3,7 @@ Lab5_Agnolutto
 ### First Program Operation
 
 This program loads the value 8 into the accumulator and adds one to it until it reaches 0 (values in hex); each value got outputted to 
-outport 3. Once the value was greater than 0, it entered an infinite loop. The values outported were: 9, A, B, C, D, E, F,
-and 0. 
+outport 3. Once the value was greater than 0, it entered an infinite loop. The values outported were: 9, A, B, C, D, E, F,and 0. 
 
 ### First Program Instruction Cycles
 
@@ -22,7 +21,14 @@ The third command was OUT. The current value is output to outport 3.
 
 ![OUT] (https://raw.githubusercontent.com/C15Agnolutto/Lab5_Agnolutto/master/out.PNG)
 
+The next two commands depended on the current value. If the value was less than 0, then the JN command executed and 
+returned to the ADDI command. 
 
+![JN] (https://raw.githubusercontent.com/C15Agnolutto/Lab5_Agnolutto/master/JN.PNG)
+
+If the value was 0 or greater (which was impossible for this PRISM model) then it went to the JMP command where it entered an inifinite loop. This occured only after it iterated through 9, A, B, C, D, E, and F
+
+![JMP] (https://raw.githubusercontent.com/C15Agnolutto/Lab5_Agnolutto/master/jmp.PNG)
 
 
 ### Functionality
