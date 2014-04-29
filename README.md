@@ -18,6 +18,10 @@ The second command was ADDI. It adds 1 to the value in the accumulator.
 
 ![ADDI] (https://raw.githubusercontent.com/C15Agnolutto/Lab5_Agnolutto/master/ADDI.PNG)
 
+The third command was OUT. The current value is output to outport 3. 
+
+![OUT] (https://raw.githubusercontent.com/C15Agnolutto/Lab5_Agnolutto/master/out.PNG)
+
 
 
 
