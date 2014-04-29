@@ -18,6 +18,7 @@ and 0.
 Program 1 - Checked off by Capt Trimble on 21 April
 Program 2 - Checked off by Capt Trimble on 25 April
 FPGA Demo - Checked off by Capt Trimble on 25 April
+Cool thing - Not accomplished
 
 
 ### Answers to Questions
