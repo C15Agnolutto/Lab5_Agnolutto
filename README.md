@@ -15,10 +15,10 @@ and 0.
 
 ### Functionality
 
-Program 1 - Checked off by Capt Trimble on 21 April
-Program 2 - Checked off by Capt Trimble on 25 April
-FPGA Demo - Checked off by Capt Trimble on 25 April
-Cool thing - Not accomplished
+Program 1 - Checked off by Capt Trimble on 21 April.
+Program 2 - Checked off by Capt Trimble on 25 April.
+FPGA Demo - Checked off by Capt Trimble on 25 April.
+Cool thing - Not accomplished.
 
 
 ### Answers to Questions
@@ -28,9 +28,8 @@ Cool thing - Not accomplished
   b) IRLd - 1 (high)
   c) ACCLd - 0 (low)
 
-2) The current state is Decode LoAddr and the IR contains "OUT." What are the control signals asserted, and what will the 
-next state be?
-   Signals Asserted: AddrSel, EnAccBuffer, IOSel, R/W 
+2) The current state is Decode LoAddr and the IR contains "OUT." What are the control signals asserted, and what will the next state be?
+   Signals Asserted: AddrSel, EnAccBuffer, IOSel 
    Next State: Direct IO Execute
   
 3) What are the three status signals sent from the PRISM datapath to the PRISM controller?
