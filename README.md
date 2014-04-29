@@ -13,6 +13,11 @@ and 0.
 
 
 
+### Functionality
+
+Program 1 - Checked off by Capt Trimble on 21 April
+Program 2 - Checked off by Capt Trimble on 25 April
+FPGA Demo - Checked off by Capt Trimble on 25 April
 
 
 ### Answers to Questions
@@ -24,7 +29,8 @@ and 0.
 
 2) The current state is Decode LoAddr and the IR contains "OUT." What are the control signals asserted, and what will the 
 next state be?
-  
+   Signals Asserted: AddrSel, EnAccBuffer, IOSel, R/W 
+   Next State: Direct IO Execute
   
 3) What are the three status signals sent from the PRISM datapath to the PRISM controller?
   IR, AccLessZero, AcceqZero
@@ -35,5 +41,5 @@ next state be?
   
 5) What changes are necessary to the PRISM datapath to add another instruction (SUBI, which would subtract an immediate 
 value from the accumulator) to the instruction set?
-  5 bits would be needed, as opposed to the current 4, to store all the instructions. 
+  The main change would be 5 bits would be needed, as opposed to the current 4, to store all the instructions. This would effect the ALU, the data bus, and the control bus. This would increase complexity when the commands NEG and ADDI can do the same function. It wouldn't be worth it. 
   
