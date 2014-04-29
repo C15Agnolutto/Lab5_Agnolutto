@@ -8,7 +8,15 @@ and 0.
 
 ### First Program Instruction Cycles
 
+So we had to make a working PRISM model in vhdl. We had to implement our ALU from lab 4 and the code provided to get the simulation to work properly. The handout provided a screenshot of what the waveform should look like so I knew I had it working properly.
 
+The first command was LDAI. It loads 8 onto the accumulator. 
+
+![LDAI] (https://raw.githubusercontent.com/C15Agnolutto/Lab5_Agnolutto/master/LDAI.PNG)
+
+The second command was ADDI. It adds 1 to the value in the accumulator.
+
+![ADDI] (https://raw.githubusercontent.com/C15Agnolutto/Lab5_Agnolutto/master/ADDI.PNG)
 
 
 
